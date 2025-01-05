@@ -47,7 +47,7 @@ public class UI extends JFrame {
                                 for (int s = 0; s < 60 && running; s++) {
                                     String time = h + ":" + m + ":" + s;
                                     display.setText(time); // Update display text
-                                    Thread.sleep(100); // Pause for 1 second
+                                    Thread.sleep(1000); // Pause for 1 second
                                 }
                             }
                         }
