@@ -29,6 +29,7 @@ public class UI extends JFrame {
             buttons[i] = new JButton(labels[i]);
             buttons[i].setBounds(150 + i * 150, 300, 100, 50); // Properly spaced buttons at the bottom
             buttons[i].setFont(new Font("Arial", Font.PLAIN, 16));
+            buttons[i].setBackground(Color.LIGHT_GRAY);
             buttons[i].setBorder(BorderFactory.createLineBorder(Color.BLACK));
             add(buttons[i]);
         }
